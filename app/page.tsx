@@ -192,7 +192,7 @@ export default function Home() {
             Let&apos;s connect.
           </h2>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.25rem" }}>
-            <ContactItem icon={<Mail size={16} />} label="aestrada22@apple.com" href="mailto:aestrada22@apple.com" />
+            <ContactItem icon={<Mail size={16} />} label="axestrada@outlook.com" href="mailto:axestrada@outlook.com" />
             <ContactItem icon={<Phone size={16} />} label="214-686-3805" href="tel:+12146863805" />
           </div>
         </FadeSection>

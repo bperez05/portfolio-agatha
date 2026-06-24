@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --no-eslint --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(gh repo *)",
+      "Bash(gh auth *)",
+      "Bash(git -C /Users/brandon/portfolio_agatha status)",
+      "Bash(git -C /Users/brandon/portfolio_agatha log --oneline -3)",
+      "Bash(git -C /Users/brandon/portfolio_agatha add app/globals.css app/layout.tsx app/page.tsx next.config.ts package.json package-lock.json .ionos.yaml components/ .claude/launch.json)",
+      "Bash(git -C /Users/brandon/portfolio_agatha commit -m ' *)",
+      "Bash(git -C /Users/brandon/portfolio_agatha diff .claude/settings.local.json)",
+      "Bash(git -C /Users/brandon/portfolio_agatha add .claude/settings.local.json)",
+      "Bash(git -C /Users/brandon/portfolio_agatha log --oneline)",
+      "Bash(ls -la /Users/brandon/)"
+    ]
+  }
+}

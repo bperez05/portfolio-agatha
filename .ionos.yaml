@@ -1,0 +1,12 @@
+---
+setup:
+  ionosInfrastructure: webhosting
+  language:
+    name: Node.js
+    version: "20"
+  template:
+    identifier: next-js
+deploy:
+  distFolder: out
+  createMissingPages: true
+  errorPage: 404.html

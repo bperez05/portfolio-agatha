@@ -63,7 +63,7 @@ const education = [
     degree: "Bachelor of Arts, Communication Studies",
     school: "St. Mary's University",
     location: "San Antonio, TX",
-    date: "2021",
+    date: "2022",
     note: "Double major with Business Administration",
   },
 ];

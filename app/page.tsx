@@ -209,7 +209,7 @@ function HeroButton({ href, variant, children }: { href: string; variant: "outli
   const base: React.CSSProperties = { display: "inline-block", padding: "0.75rem 1.75rem", textDecoration: "none", fontSize: "0.875rem", letterSpacing: "0.04em", borderRadius: "2px", transition: "opacity 0.2s, background 0.2s" };
   const styles: React.CSSProperties = variant === "outline"
     ? { ...base, border: "1px solid var(--accent)", color: "var(--accent)", background: "transparent", fontWeight: 400 }
-    : { ...base, background: "var(--accent)", color: "#0f0f0f", border: "none", fontWeight: 500 };
+    : { ...base, background: "var(--accent)", color: "#f5f4ef", border: "none", fontWeight: 500 };
   return (
     <a href={href} style={styles}
       onMouseEnter={(e) => { const el = e.currentTarget as HTMLAnchorElement; if (variant === "outline") el.style.background = "var(--accent-soft)"; else el.style.opacity = "0.85"; }}
